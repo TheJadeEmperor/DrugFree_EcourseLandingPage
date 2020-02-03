@@ -1,0 +1,33 @@
+.bg_yellow_gradient {
+	height: 250px;
+	background-color: #FF9E18; /* For browsers that do not support gradients */
+	background-image: linear-gradient(#FF9E18, #FFDC6C);
+}
+
+.bg_yellow {
+	height: 250px;
+	background-color: #FFDC6C;
+}
+
+.bg_purple_gradient {
+	height: 250px;
+	background-color: #C17CE1;
+	background-image: linear-gradient(#C17CE1, #3F2583);
+}
+
+.bg_purple {	
+	height: 250px;
+	background-color: #C17CE1;
+}
+
+.bg_white_1 {
+	height: 250px;
+}
+
+.bg_white_2 {
+	height: 250px;
+}
+
+.bg_white_3 {
+	height: 250px;
+}
