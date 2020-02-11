@@ -1,33 +1,196 @@
-.bg_yellow_gradient {
-	height: 250px;
-	background-color: #FF9E18; /* For browsers that do not support gradients */
-	background-image: linear-gradient(#FF9E18, #FFDC6C);
+body {
+	margin: 0;
 }
 
-.bg_yellow {
-	height: 250px;
+.container {
+	margin: 0 auto;
+	width: 80%;
+	font: 36px Roboto;
+}
+
+.coa_logo {
+	width: 155px;
+	height: 36px;
+	float: left; 
+}
+
+.top_bar {
+	float: right;
+	font-size: 24px;
+}
+
+	#button_sign_up {
+		float: left; 
+		margin-right: 20px;
+		padding: 10px;
+	}
+	
+	#button_login {
+		padding: 10px;
+		float: right; 
+	}
+
+	#button_sign_up a, #button_login a {
+		text-decoration: none;
+		color: #FFFFFF;
+	}
+
+	#button_sign_up:hover, #button_login:hover {
+		border: 1px solid #FFFFFF;
+	} 
+
+.bg_yellow_gradient {
+	background-color: #FF9E18; /* For browsers that do not support gradients */
+	background-image: linear-gradient(#FF9E18, #FFDC6C);
+	height: 660px;
+	padding: 28px;  
+	color: white;
+	
+	border-color: transparent transparent #FFDC6C transparent;
+	/*border-radius: 0 0 300px 50%/60px;*/
+	border-radius: 0 0 50px 80%/110px;
+}
+
+	.bg_yellow_grad_text_box {
+		margin: 170px auto 0 auto; 
+		text-align: center;
+		width: 80%;
+	}
+
+	.bg_yellow_grad_h1 {
+		font-size: 72px;
+	}
+	
+	.bg_yellow_grad_paragraph {
+		font-size: 36px; 
+		text-align: left;	
+		color: #414141;		
+	}
+
+
+.bg_white_1 {
+	height: 350px;
+}
+
+	.bg_white_1_img {
+		float: right;
+		margin: 20px 10% 0 auto; 
+	}
+
+	.bg_white_text_box_1 {
+		float: left;
+		margin: 20px auto 0 10%; 
+		text-align: left;
+		width: 40%;
+	}
+
+	.bg_white_1_h1 {
+		font-size: 64px;
+	}
+
+
+.bg_yellow { 
+	height: 350px;
 	background-color: #FFDC6C;
 }
 
-.bg_purple_gradient {
-	height: 250px;
-	background-color: #C17CE1;
-	background-image: linear-gradient(#C17CE1, #3F2583);
-}
+	.bg_yellow_img {
+		float: left; 
+		margin: 20px auto 0 10%; 
+	}
 
-.bg_purple {	
-	height: 250px;
-	background-color: #C17CE1;
-}
+	.bg_yellow_text_box {
+		float: right;
+		margin: 20px 10% 0 auto; 
+		text-align: left;
+		width: 40%;
+	}
+	
+	.bg_yellow_h1 {
+		font-size: 64px;
+	}
 
-.bg_white_1 {
-	height: 250px;
-}
 
 .bg_white_2 {
-	height: 250px;
+	height: 350px;
 }
 
+	.bg_white_2_img {
+		float: right;
+		margin: 20px 10% 0 auto; 
+	}
+
+	.bg_white_text_box_2 {
+		float: left;
+		margin: 20px auto 0 10%; 
+		text-align: left;
+		width: 40%;
+	}
+
+	.bg_white_2_h1 {
+		font-size: 64px;
+	}
+
 .bg_white_3 {
-	height: 250px;
+	height: 350px;
 }
+
+	.bg_white_3_img {
+		float: left; 
+		margin: 20px auto 0 10%; 
+	}
+
+	.bg_white_text_box_3 {
+		float: right;
+		margin: 20px 10% 0 auto; 
+		text-align: left;
+		width: 40%;
+	}
+	
+	.bg_white_3_h1 {
+		font-size: 64px;
+	}
+
+
+.bg_purple {	
+	height: 300px;
+	background-color: #C17CE1;
+}
+
+	
+
+.bg_purple_gradient {
+	height: 660px;
+	background-color: #C17CE1;
+	background-image: linear-gradient(#C17CE1, #3F2583);
+	text-align: center;
+}
+
+	.bg_purple_gradient .button_purple {
+		margin: 0 auto;
+	}
+ 
+.button_purple {
+	color: #FFFFFF;
+	background-color: #772583;
+	border-color: #772583;
+	width: 348px;
+	height: 64px;
+	font-size: 24px;
+	padding: 15px 20px;
+	border-radius: 5px;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+.bg_yellow_img, .bg_white_1_img, .bg_white_2_img, .bg_white_3_img {
+	height: 200px;
+	width: 200px;
+}
+
+/* iPad view */
+
+
+/* Mobile views */
