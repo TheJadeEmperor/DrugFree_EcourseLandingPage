@@ -1,196 +1,320 @@
 body {
 	margin: 0;
+	font-family: "Work Sans";
+	/*font-family: Museo Sans;*/
 }
 
 .container {
 	margin: 0 auto;
-	width: 80%;
-	font: 36px Roboto;
 }
 
-.coa_logo {
-	width: 155px;
-	height: 36px;
-	float: left; 
-}
 
-.top_bar {
-	float: right;
-	font-size: 24px;
-}
-
-	#button_sign_up {
-		float: left; 
-		margin-right: 20px;
-		padding: 10px;
-	}
-	
-	#button_login {
-		padding: 10px;
-		float: right; 
-	}
-
-	#button_sign_up a, #button_login a {
-		text-decoration: none;
-		color: #FFFFFF;
-	}
-
-	#button_sign_up:hover, #button_login:hover {
-		border: 1px solid #FFFFFF;
-	} 
-
-.bg_yellow_gradient {
-	background-color: #FF9E18; /* For browsers that do not support gradients */
-	background-image: linear-gradient(#FF9E18, #FFDC6C);
-	height: 660px;
-	padding: 28px;  
-	color: white;
-	
-	border-color: transparent transparent #FFDC6C transparent;
-	/*border-radius: 0 0 300px 50%/60px;*/
-	border-radius: 0 0 50px 80%/110px;
-}
-
-	.bg_yellow_grad_text_box {
-		margin: 170px auto 0 auto; 
-		text-align: center;
-		width: 80%;
-	}
-
-	.bg_yellow_grad_h1 {
-		font-size: 72px;
-	}
-	
-	.bg_yellow_grad_paragraph {
-		font-size: 36px; 
-		text-align: left;	
-		color: #414141;		
-	}
-
-
-.bg_white_1 {
-	height: 350px;
-}
-
-	.bg_white_1_img {
-		float: right;
-		margin: 20px 10% 0 auto; 
-	}
-
-	.bg_white_text_box_1 {
-		float: left;
-		margin: 20px auto 0 10%; 
-		text-align: left;
-		width: 40%;
-	}
-
-	.bg_white_1_h1 {
-		font-size: 64px;
-	}
-
-
-.bg_yellow { 
-	height: 350px;
-	background-color: #FFDC6C;
-}
-
-	.bg_yellow_img {
-		float: left; 
-		margin: 20px auto 0 10%; 
-	}
-
-	.bg_yellow_text_box {
-		float: right;
-		margin: 20px 10% 0 auto; 
-		text-align: left;
-		width: 40%;
-	}
-	
-	.bg_yellow_h1 {
-		font-size: 64px;
-	}
-
-
-.bg_white_2 {
-	height: 350px;
-}
-
-	.bg_white_2_img {
-		float: right;
-		margin: 20px 10% 0 auto; 
-	}
-
-	.bg_white_text_box_2 {
-		float: left;
-		margin: 20px auto 0 10%; 
-		text-align: left;
-		width: 40%;
-	}
-
-	.bg_white_2_h1 {
-		font-size: 64px;
-	}
-
-.bg_white_3 {
-	height: 350px;
-}
-
-	.bg_white_3_img {
-		float: left; 
-		margin: 20px auto 0 10%; 
-	}
-
-	.bg_white_text_box_3 {
-		float: right;
-		margin: 20px 10% 0 auto; 
-		text-align: left;
-		width: 40%;
-	}
-	
-	.bg_white_3_h1 {
-		font-size: 64px;
-	}
-
-
-.bg_purple {	
-	height: 300px;
-	background-color: #C17CE1;
-}
-
-	
-
-.bg_purple_gradient {
-	height: 660px;
-	background-color: #C17CE1;
-	background-image: linear-gradient(#C17CE1, #3F2583);
-	text-align: center;
-}
-
-	.bg_purple_gradient .button_purple {
-		margin: 0 auto;
-	}
- 
 .button_purple {
 	color: #FFFFFF;
 	background-color: #772583;
 	border-color: #772583;
-	width: 348px;
-	height: 64px;
 	font-size: 24px;
-	padding: 15px 20px;
-	border-radius: 5px;
+	padding: 7px 20px;
+	width: 211px;
+	height: 45px;
+	border-radius: 30px;
 }
 
 button:hover {
 	cursor: pointer;
 }
 
-.bg_yellow_img, .bg_white_1_img, .bg_white_2_img, .bg_white_3_img {
-	height: 200px;
-	width: 200px;
+.clear {
+	clear: both;
 }
+
+.purple_bg {
+	background: rgba(201, 176, 228, 0.35);
+}
+
+.purple_text {
+	color: #772583;
+}
+
+.ecourse_top_logos {
+	float: left;
+}
+
+	#coa_logo {
+		width: 209px;
+		height: 54px;
+		margin: 30px 27px 26px 29px;
+	}
+
+	#pdfk_logo {
+		width: 199px;
+		height: 56px;
+		margin: 30px 0 26px 0;
+	}
+
+.ecourse_top_buttons {
+	float: right;
+}
+
+	#button_1 {
+		margin: 44px 35px 47px 0;
+	}
+
+
+/* hero section */	
+.ecourse_yellow_bg {
+	height: 277px;
+	background: #FFDC6C;
+	width: 60%;
+	margin-bottom: 68px;
+	float: left
+}
+
+	.yellow_bg_text {
+		margin: 54px 54px 0 100px;
+		font-family: "Alternate Gothic No1 D";
+		font-size: 50px;
+		line-height: 54px;
+	}
+
+	/* hero image */
+	#hero_img {
+		height: 277px;
+		width: 30%;
+		float: left;
+		border-radius: 0 0 50px 0;
+	}
+
+.ecourse_white_bg_1 {
+	width: 70%;
+	margin: auto;
+}
+
+	/* first circle image - 1 of 2 */
+	#circle_img_1 {
+		float: left;
+		text-align: right;
+	}
+		/* make image a circle */
+		#circle_img_1 img {
+			border-radius: 50%;
+		}
+
+	/* purple text next to circle image */
+	.ecourse_purple_text {
+		float: right;
+		font-weight: 300;
+		font-size: 24px;
+		line-height: 34px;
+		width: 50%;
+		margin-right: 5%;
+	}
+
+/* 3 div's side by side */
+.icon_container {
+	margin: 116px auto 106px auto;
+}
+
+	/* 3 div's side by side */
+	.icon_check_div, .icon_pen_div, .icon_stars_div {
+		float: left;
+		width: 32%;
+		max-width: 410px;
+		text-align: left;
+	}
+
+	.icon_container p {
+		max-width: 243px;
+		font-weight: 300;
+		font-size: 16px;
+		line-height: 19px;
+	}
+
+/* quote in purple block */
+.ecourse_purple_bg {
+	background: rgba(201, 176, 228, 0.35);
+	margin: 54px 0 0 30%;
+	padding: 63px 81px 46px 81px;
+	border-radius: 0px 0px 0px 50px;
+}
+	/* quote text */
+	.ecourse_purple_bg .quote {
+		margin: 0 0 20px 0;
+		font-size: 24px;
+		line-height: 30px;
+	}
+
+	/* quote author */
+	.ecourse_purple_bg .author {
+		font-weight: 300;
+		font-size: 16px;
+		line-height: 19px;
+	}
+
+	#img_quote {
+		float: right;
+		margin: 15px 55% 0 0;
+	}
+
+/* start learning block */
+.ecourse_white_bg_2 {
+	margin: 192px auto 100px auto;
+	width: 70%;
+}
+
+	.start_learning_text {
+		float: left; 
+		width: 50%;
+	}
+
+		.start_learning_text h2 {
+			font-weight: 500;
+			font-size: 34px;
+			line-height: 41px;
+			color: #772583;
+		}
+
+		.start_learning_text p {
+			font-size: 24px;
+			line-height: 30px;
+		}
+
+	#circle_img_2 {
+		float: right;
+		width: 30%;
+		margin-right: 15%;
+	}
+
+		#circle_img_2 img {
+			border-radius: 50%;
+		}
+
+/* bullet list inside purple bg */
+.ecourse_bullet_list {
+	margin: 90px 20% 0 40%;
+	padding: 63px 81px 46px 81px;
+	border-radius: 0px 0px 0px 50px;
+}
+
+.triangle {
+	width: 0;
+	height: 0;
+	border-top: 100px solid rgba(201, 176, 228, 0.35);
+	border-left: 100px solid transparent;
+	float: right;
+	margin-right: 20%;
+}
+
+.ecourse_final_bg {
+	margin: 133px 0 30px 0;
+}
+
+	.img_signature_div {
+		float: left;
+		padding-right: 15px;
+		margin: 0 15px 0 26px;
+		border-right: 1px solid #000000;
+	}
+
+	.signature_text {
+		float: left;
+		padding: 20px 0px;
+		font-size: 14px;
+		line-height: 18px;
+	}
+	 
+
+/* footer div */
+.ecourse_footer_div {
+	height: 126px;
+	background: #F5F5F5;
+}
+
+.ecourse_footer_left {
+	float: left;
+}
+
+	.ecourse_footer_left p {
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 24px;
+		letter-spacing: 0.04em;
+	}
+
+		/* footer coa text - first paragraph */
+		.ecourse_footer_left p:first-child {
+			margin: 39px 0 12px 42px;
+		}
+
+		/* footer pdfk test - 2nd paragraph */
+		.ecourse_footer_left p:nth-child(2) {
+			margin: 0 0 27px 42px;
+		}
+
+	.ecourse_footer_right {
+		float: right;
+		margin: 25px 30px 0 0;
+		font-weight: 300;
+		font-size: 16px;
+	}
+
+		.ecourse_footer_right a {
+			color: #000000;
+		}
+
+			.ecourse_footer_right a:hover {
+				color: #772583;
+			}
+
 
 /* iPad view */
 
+/* Mobile view */
+@media (max-width: 420px) {
+	body {
+		margin: unset; /* margin causes white space to appear */
+	}
 
-/* Mobile views */
+	/* purple button not in design */
+	.ecourse_top_buttons {
+		display: none;
+	}
+
+	/* both logos take up whole screen */
+	#pdfk_logo, #coa_logo {
+		width: 48%;
+	}
+
+		#coa_logo {
+			width: 129px;
+			height: 33px;
+			margin: 30px 17px 32px 22px;
+		}
+
+		#pdfk_logo {
+			width: 127px;
+			height: 36px;
+			margin: 28px 0;
+		}
+
+	/* yellow bg & hero img are stacked */
+	.ecourse_yellow_bg, #hero_img {
+		float: none; /* float not necessary */
+		width: 90%; /* each div takes up 90% of screen */
+	}
+
+		.ecourse_yellow_bg {
+
+		}
+
+		.yellow_bg_text {
+			font-size: 30px;
+			line-height: 34px;
+			margin: 20px;
+		}
+	 
+
+	
+
+
+}
