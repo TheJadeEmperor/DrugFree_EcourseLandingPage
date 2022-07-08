@@ -3,23 +3,16 @@
 Template Name: Moodle Online Course
 */
 
-$template_dir = '/wp-content/themes/PDFK/';
-
-//CoA logo
-$coa_logo = get_field("coa_logo");
-
-
 $button_text_1 = 'Start Learning';
 
-
-$coa_logo = $template_dir.'img/ecourse/coa.png';
-$pdfk_logo = $template_dir.'img/ecourse/pdfk_no_slogan.png';
+$coa_logo = $template_dir.'img/ecourse/logo_coa.png';
+$pdfk_logo = $template_dir.'img/ecourse/logo_pdfk.png';
 $circle_img_1 = $template_dir.'img/ecourse/circle_image_1.png';
 $circle_img_2 = $template_dir.'img/ecourse/circle_image_2.png';
 
-$icon_check = $template_dir.'img/ecourse/icon_check.png';
-$icon_pen = $template_dir.'img/ecourse/icon_pen.png';
-$icon_stars = $template_dir.'img/ecourse/icon_stars.png';
+$icon_check = $template_dir.'img/ecourse/icon_1.png';
+$icon_pen = $template_dir.'img/ecourse/icon_2.png';
+$icon_stars = $template_dir.'img/ecourse/icon_3.png';
 
 $img_quote = $template_dir.'img/ecourse/img_quote.png';
 $signature = $template_dir.'img/ecourse/signature.png';
@@ -32,7 +25,7 @@ $page_title = 'Ecourse Learning Portal';
     <meta charset="utf-8">
 	<title><?=$page_title?></title>
     <!-- CSS -->
-    <link href="<?=$template_dir?>sass/online-course.css" rel="stylesheet" />
+    <link href="online-course.css" rel="stylesheet" />
 	<link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet" />
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<!-- jQuery -->
@@ -137,16 +130,13 @@ $page_title = 'Ecourse Learning Portal';
  </div>
 
 <div class="ecourse_final_bg">
-	
-	<div class="img_signature_div"><img src="<?=$signature?>" alt="<?=$page_title?>" class="img_signature" />
+	<div class="img_signature_div">
+		<img src="<?=$signature?>" alt="<?=$page_title?>" class="img_signature" />
 	</div>
 
 	<div class="signature_text">Created with the generous funding of the Conrad N. Hilton Foundation</div>
 	<div class="clear"></div>
-
 </div>
-
-
 
 <div class="ecourse_footer_div">
 	<div class="ecourse_footer_left purple_text">
@@ -159,6 +149,5 @@ $page_title = 'Ecourse Learning Portal';
 	<a target="_BLANK" href="">Privacy Policy</a> | <a target="_BLANK" href="">Terms of Use</a>
 	</div>
 </div>
-
 
 </div>

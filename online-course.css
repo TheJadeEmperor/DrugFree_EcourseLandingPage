@@ -1,13 +1,12 @@
-body {
+html {
+	font-size: 16px; 
 	margin: 0;
 	font-family: "Work Sans";
-	/*font-family: Museo Sans;*/
 }
 
 .container {
 	margin: 0 auto;
 }
-
 
 .button_purple {
 	color: #FFFFFF;
@@ -41,15 +40,12 @@ button:hover {
 }
 
 	#coa_logo {
-		width: 209px;
-		height: 54px;
-		margin: 30px 27px 26px 29px;
+		max-width: 200px;
+		margin: 30px 0 0 0;
 	}
 
 	#pdfk_logo {
-		width: 199px;
-		height: 56px;
-		margin: 30px 0 26px 0;
+		margin: 30px 0 0 0;
 	}
 
 .ecourse_top_buttons {
@@ -73,8 +69,8 @@ button:hover {
 	.yellow_bg_text {
 		margin: 54px 54px 0 100px;
 		font-family: "Alternate Gothic No1 D";
-		font-size: 50px;
-		line-height: 54px;
+		font-size: 3rem;
+		line-height: 3.1rem;
 	}
 
 	/* hero image */
@@ -96,9 +92,11 @@ button:hover {
 		text-align: right;
 	}
 		/* make image a circle */
-		#circle_img_1 img {
+		#circle_img_1 img, #circle_img_2 img {
 			border-radius: 50%;
+			max-width: 300px;
 		}
+ 
 
 	/* purple text next to circle image */
 	.ecourse_purple_text {
@@ -121,6 +119,12 @@ button:hover {
 		width: 32%;
 		max-width: 410px;
 		text-align: left;
+	}
+
+	.icon_container img {
+		background-color: #F5F5F5;
+		max-width: 90px;
+		border-radius: 50%;
 	}
 
 	.icon_container p {
@@ -154,6 +158,7 @@ button:hover {
 	#img_quote {
 		float: right;
 		margin: 15px 55% 0 0;
+		max-width: 90px;
 	}
 
 /* start learning block */
@@ -185,10 +190,7 @@ button:hover {
 		margin-right: 15%;
 	}
 
-		#circle_img_2 img {
-			border-radius: 50%;
-		}
-
+	
 /* bullet list inside purple bg */
 .ecourse_bullet_list {
 	margin: 90px 20% 0 40%;
@@ -216,6 +218,10 @@ button:hover {
 		border-right: 1px solid #000000;
 	}
 
+	.img_signature_div img {
+		max-width: 150px;
+	}
+
 	.signature_text {
 		float: left;
 		padding: 20px 0px;
@@ -236,8 +242,8 @@ button:hover {
 
 	.ecourse_footer_left p {
 		font-weight: 500;
-		font-size: 18px;
-		line-height: 24px;
+		font-size: 0.8rem;
+		line-height: 1rem;
 		letter-spacing: 0.04em;
 	}
 
@@ -255,7 +261,7 @@ button:hover {
 		float: right;
 		margin: 25px 30px 0 0;
 		font-weight: 300;
-		font-size: 16px;
+		font-size: 0.8rem;
 	}
 
 		.ecourse_footer_right a {
@@ -268,11 +274,47 @@ button:hover {
 
 
 /* iPad view */
+@media screen and (max-width: 769px) {
+	html {
+		font-size: 14px !important;
+	}
+
+	.ecourse_white_bg_1 {
+		margin: 0 5%;
+		width: 100%;
+		display: inline-block;
+	}	
+
+	#circle_img_1, .ecourse_purple_text {
+		display: inline-block;
+		float: none;
+	}
+
+	#circle_img_1 {
+		vertical-align: top;
+	}
+
+	.ecourse_bullet_list {
+		padding: 20px;
+	}
+}
 
 /* Mobile view */
-@media (max-width: 420px) {
-	body {
+@media (max-width: 421px) {
+	html {
 		margin: unset; /* margin causes white space to appear */
+		font-size: 12px;
+	}
+
+	.container {
+		width: 100%;
+		margin: auto;
+		text-align: center;
+		background-color: #8bc78f;
+	}
+
+	.ecourse_top_logos {
+		float: none;
 	}
 
 	/* purple button not in design */
@@ -301,20 +343,26 @@ button:hover {
 	.ecourse_yellow_bg, #hero_img {
 		float: none; /* float not necessary */
 		width: 90%; /* each div takes up 90% of screen */
+		margin: 0px auto;
+		
 	}
-
 		.ecourse_yellow_bg {
-
+			height: unset;
 		}
-
+		
 		.yellow_bg_text {
-			font-size: 30px;
-			line-height: 34px;
-			margin: 20px;
+			font-size: 2rem;
+			margin: 5%;
+			padding: 20px;
 		}
 	 
+	#circle_img_2 {
+		float: none;
+	}
 
-	
+	.ecourse_bullet_list {
+		margin: 0;
+	}
 
 
 }
