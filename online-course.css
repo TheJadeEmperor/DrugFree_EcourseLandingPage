@@ -304,13 +304,13 @@ button:hover {
 	html {
 		margin: unset; /* margin causes white space to appear */
 		font-size: 12px;
+		overflow-x: hidden;
 	}
 
 	.container {
 		width: 100%;
 		margin: auto;
-		text-align: center;
-		background-color: #8bc78f;
+		text-align: center; 
 	}
 
 	.ecourse_top_logos {
@@ -349,7 +349,7 @@ button:hover {
 		.ecourse_yellow_bg {
 			height: unset;
 		}
-		
+
 		.yellow_bg_text {
 			font-size: 2rem;
 			margin: 5%;
@@ -362,6 +362,13 @@ button:hover {
 
 	.ecourse_bullet_list {
 		margin: 0;
+	}
+
+	#circle_img_1 {
+		margin: 5% 0;
+	}
+	.ecourse_purple_text {
+		width: 90%;
 	}
 
 
